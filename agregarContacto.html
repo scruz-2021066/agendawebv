@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo contacto</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Barra de tareas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./perfil.html">Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contactos.html">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./agregarContacto.html">Nuevo contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./infoContactos.html">Detalles ontacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactosFavoritos.html"> Contactos Favoritos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./toDoList.html">To Do List</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Login</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+    <hr>
+    <hr>
+    <div class="container">
+        <div class="row flex-lg-nowrap">
+          <div class="col-12 col-lg-auto mb-3" style="width: 200px;">
+            
+          </div>
+        
+          <div class="col">
+            <div class="row">
+              <div class="col mb-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="e-profile">
+                      <div class="row">
+                        <div class="col-12 col-sm-auto mb-3">
+                          <div class="mx-auto" style="width: 140px;">
+                            <div class="d-flex justify-content-center align-items-center rounded" style="height: 140px; background-color: rgb(233, 236, 239);">
+                              <span style="color: rgb(166, 168, 170); font: bold 8pt Arial;">IMG PERFIL</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col d-flex flex-column flex-sm-row justify-content-between mb-3">
+                          <div class="text-center text-sm-left mb-2 mb-sm-0">
+                            <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap">Nuevo Usuario</h4>
+ 
+                          </div>
+                          <div class="text-center text-sm-right">
+                        
+                          </div>
+                        </div>
+                      </div>
+                      <ul class="nav nav-tabs">
+                        <li class="nav-item"><a href="" class="active nav-link">Settings</a></li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active">
+                          <form class="form" novalidate="">
+
+                              <div class="col">
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="form-group">
+                                      <label>Nombre</label>
+                                      <input class="form-control" type="text" name="nombre" placeholder="nombre" value="nombre">
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="form-group">
+                                      <label>Apellido</label>
+                                      <input class="form-control" type="text" name="apellido" placeholder="apellido" value="apellido">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="form-group">
+                                      <label>telefono</label>
+                                      <input class="form-control" type="text" placeholder="1111-1111">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                      <div class="form-group">
+                                        <label>Email</label>
+                                        <input class="form-control" type="text" placeholder="user@example.com">
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+                              </div>
+ 
+                                
+                            <div class="row">
+                              <div class="col d-flex justify-content-end">
+                                <button class="btn btn-primary" type="submit"><a class="btn btn-primary" href = "./contactos.html">Guardar Cambios</a></button>
+                              </div>
+                            </div>
+                          </form>
+        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        </div>   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

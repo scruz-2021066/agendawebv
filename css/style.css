@@ -1,0 +1,83 @@
+body {
+    color: #000;
+    background: #a3a3a3;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 13px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+
+.bg-white {
+    background-color: #656565;
+}
+
+
+
+
+#descripcion {
+    resize: none;
+}
+
+.centrado {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Titulo1{
+    margin-left: 90px;
+    margin-right: 10px;
+}
+
+.botones {
+    
+    
+    margin-left: 50px;
+    margin-right: 10px;
+    color: chocolate;
+} 
+
+
+
+.lista{
+    margin-top: 20px;
+    margin-left: 650px;
+    margin-right: 50px;
+}
+.nombre{
+    
+    text-decoration: none;
+    color: white;
+}
+
+.apellido{
+    
+    text-decoration: none;
+    color: white;
+}
+.telefono{
+    
+    text-decoration: none;
+    color: white;
+}
+.email{
+    
+    text-decoration: none;
+    color: white;
+}
+
+
+.back{
+    margin-top: 150px;
+}
+.mate{
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 50px;
+}
+
+.pepe{
+    color:yellowgreen;
+}

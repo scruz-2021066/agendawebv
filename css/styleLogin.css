@@ -1,0 +1,21 @@
+body{
+    margin-top:20px;
+}
+
+
+.text-theme {
+    color: #5369f8 !important;
+}
+
+.btn-theme {
+    background-color: #5369f8;
+    border-color: #5369f8;
+    color: #fff;
+}
+
+.imagen{
+    left: 300;
+    top: 300;
+    width: 600;
+    height: 600;
+}
